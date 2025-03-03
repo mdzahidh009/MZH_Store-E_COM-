@@ -10,7 +10,7 @@ export default function Navbar({ searchTerm, onSearch }) {
 
   return (
     <>
-      <nav className="bg-gray-900 text-white">
+      <nav className="bg-green-600 text-white">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between h-16">
             <div className="flex items-center space-x-8">
