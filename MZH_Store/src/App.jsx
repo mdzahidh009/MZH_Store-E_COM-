@@ -9,16 +9,16 @@ export default function App() {
 
   return (
     <Router>
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen bg-cyan-100">
         <Navbar searchTerm={searchTerm} onSearch={setSearchTerm} />
         <main className="container mx-auto px-4 py-8">
           <div className="flex flex-col md:flex-row gap-6">
             {/* Filters */}
-            <div className="w-full md:w-64 space-y-4">
-              <div className="bg-white p-4 rounded-lg shadow">
-                <h2 className="font-semibold mb-4">Categories</h2>
+            <div className="w-full md:w-64 space-y-4 ">
+              <div className="bg-white p-4 rounded-lg shadow bg-green-400">
+                <h2 className="font-semibold mb-4 ">Categories</h2>
                 <select
-                  className="w-full p-2 border rounded"
+                  className="w-full p-2 border rounded bg-yellow-100"
                   value={selectedCategory}
                   onChange={(e) => setCategory(e.target.value)}
                 >
@@ -29,10 +29,10 @@ export default function App() {
                   <option value="home">Home & Kitchen</option>
                 </select>
               </div>
-              <div className="bg-white p-4 rounded-lg shadow">
+              <div className="bg-green-400 p-4 rounded-lg shadow">
                 <h2 className="font-semibold mb-4">Sort By</h2>
                 <select
-                  className="w-full p-2 border rounded"
+                  className="w-full p-2 border rounded bg-yellow-100"
                   value={sortBy}
                   onChange={(e) => setSortBy(e.target.value)}
                 >
