@@ -15,7 +15,7 @@ export default function App() {
           <div className="flex flex-col md:flex-row gap-6">
             {/* Filters */}
             <div className="w-full md:w-64 space-y-4 ">
-              <div className="bg-white p-4 rounded-lg shadow bg-green-400">
+              <div className="p-4 rounded-lg shadow bg-green-400">
                 <h2 className="font-semibold mb-4 ">Categories</h2>
                 <select
                   className="w-full p-2 border rounded bg-yellow-100"
